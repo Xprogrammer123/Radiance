@@ -101,27 +101,7 @@ export function StickyFooter() {
               </AnimatedContainer>
             </div>
 
-            {/* Bottom Links */}
-            <div className="flex flex-col items-center justify-center gap-4 border-t border-gray-800 py-6 text-gray-400 text-sm md:flex-row md:gap-8">
-              <a className="hover:text-white" href="#">
-                Radiance
-              </a>
-              <a className="hover:text-white" href="#">
-                Download
-              </a>
-              <a
-                className="hover:text-white"
-                href="https://twitter.com/radianceteam"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Twitter/X
-              </a>
-              <a className="hover:text-white" href="#">
-                YouTube
-              </a>
-              <span>Made in Texas</span>
-            </div>
+        
           </div>
         </div>
       </div>

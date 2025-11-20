@@ -23,26 +23,26 @@ export default function HeroSection() {
     { src: "/wall6.avif", alt: "Wallpaper 6" },
   ];
   const items = [
-    { id: "1", img: "image1.avif", height: 200, width: 600 },
-    { id: "2", img: "image2.avif", height: 1100, width: 600 },
-    { id: "3", img: "image3.avif", height: 1100, width: 600 },
-    { id: "4", img: "image4.avif", height: 1100, width: 600 },
-    { id: "5", img: "image5.avif", height: 200, width: 600 },
-    { id: "6", img: "image6.avif", height: 1100, width: 600 },
-    { id: "7", img: "image7.avif", height: 1100, width: 600 },
-    { id: "8", img: "image8.avif", height: 1100, width: 600 },
-    { id: "9", img: "image9.avif", height: 1100, width: 600 },
-    { id: "10", img: "image10.avif", height: 200, width: 600 },
-    { id: "11", img: "image11.avif", height: 1100, width: 600 },
-    { id: "12", img: "image12.avif", height: 1100, width: 600 },
-    { id: "13", img: "image13.avif", height: 1100, width: 600 },
-    { id: "14", img: "image14.avif", height: 1100, width: 600 },
-    { id: "15", img: "image15.avif", height: 1100, width: 600 },
-    { id: "16", img: "image16.avif", height: 1100, width: 600 },
+    { id: "1", img: "/image1.avif", url: "#", height: 200, width: 600 },
+    { id: "2", img: "/image2.avif", url: "#", height: 1100, width: 600 },
+    { id: "3", img: "/image3.avif", url: "#", height: 1100, width: 600 },
+    { id: "4", img: "/image4.avif", url: "#", height: 1100, width: 600 },
+    { id: "5", img: "/image5.avif", url: "#", height: 200, width: 600 },
+    { id: "6", img: "/image6.avif", url: "#", height: 1100, width: 600 },
+    { id: "7", img: "/image7.avif", url: "#", height: 1100, width: 600 },
+    { id: "8", img: "/image8.avif", url: "#", height: 1100, width: 600 },
+    { id: "9", img: "/image9.avif", url: "#", height: 1100, width: 600 },
+    { id: "10", img: "/image10.avif", url: "#", height: 200, width: 600 },
+    { id: "11", img: "/image11.avif", url: "#", height: 1100, width: 600 },
+    { id: "12", img: "/image12.avif", url: "#", height: 1100, width: 600 },
+    { id: "13", img: "/image13.avif", url: "#", height: 1100, width: 600 },
+    { id: "14", img: "/image14.avif", url: "#", height: 1100, width: 600 },
+    { id: "15", img: "/image15.avif", url: "#", height: 1100, width: 600 },
+    { id: "16", img: "/image16.avif", url: "#", height: 1100, width: 600 },
   ];
   const stats = [
     { value: 40, suffix: "K+", label: "Handcrafted animated components" },
-    { value: 0, suffix: "K+", label: "ADs" },
+    { value: 0, suffix: ".", label: "ADs" },
     { value: 400, suffix: "+", label: "Wallpapers" },
   ];
   const handleAnimationComplete = () => {
@@ -81,7 +81,6 @@ export default function HeroSection() {
             direction="bottom"
             onAnimationComplete={handleAnimationComplete}
             className="text-4xl md:text-6xl font-semibold text-white text-center drop-shadow-lg justify-center flex leading-tight max-w-2xl"
-            style={{ fontFamily: "'Stack Sans Headline', sans-serif" }}
           />
 
           {/* Buttons */}
